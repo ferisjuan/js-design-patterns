@@ -1,1 +1,1 @@
-# js-design-patterns
+# js themes
