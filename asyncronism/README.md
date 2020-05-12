@@ -2,9 +2,7 @@
 >Javascript is a single threaded asyncronus programing language so most things you do in the browser or in Nodejs blocks the excecution of the app.
 
 ## Event Loop
->It's an endless loop, it's jobs is to monitor the Call Stack and the Callback Queue . If the stack is empty, it will take the first event from the queue and will push it to the Call Stack wich runs it. This iteration is called a tick in the event loop. Each event is a functoin callback.
-
-> in a first tick the event loop runs the syncronus code and clues the asyncronus events that are going to be called later.
+>It's an endless loop, it's jobs is to monitor the Call Stack and the Callback Queue . If the stack is empty, it will take the first event from the queue and will push it to the Call Stack wich runs it. This iteration is called a tick in the event loop. Each event is a functoin callback. In a first tick the event loop runs the syncronus code and clues the asyncronus events that are going to be called later.
 
 Cosider that you are going to run som tasks and get data from the internet, the event loop will tell you that it's going to do stuff untill the data come, then you let it know that data is ready, the event loop is now ready to be called back.
 
